@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- INTERNAL AND EXTERNAL STYLING IS DONE INSIDE head tag  -->
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKING CSS TO HTML</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- INTERNAL LINKING -->
+<style>
+p{
+    border: 4px dashed green;
+    height: 50px;
+    background-color: rgb(38, 22, 53);
+    color: cyan;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+     <!-- INLINE CSS STYLING which is done with the help of 'style' attribute as shown below:-->
+    <h3>1.Inline css</h3>
+    <h1 style="color: white; background-color: blue; font-size: 20px;" class="hdr">Your Name</h1>
+    <input type="text" placeholder="enter your name" id="name">
+
+
+    <!-- this p tag is styled using internal css styling , done in the head section -->
+    <h3>2.Internal styling</h3>
+    <p> 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, neque!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, neque!
+    </p>
+
+    <h3>3.External CSS linking</h3>
+    <div class="container">
+
+        <div class="lnk">Devil 1</div>
+        <div class="lnk">Devil 2</div>
+        <div class="lnk">Devil 3</div>
+    </div>
+   
+</body>
+</html>
