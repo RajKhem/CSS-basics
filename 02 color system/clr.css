@@ -1,0 +1,38 @@
+
+/* simple value  */
+
+.hi{
+    text-align: center;
+    background-color: rgb(3, 238, 255);
+}
+
+h1{
+    width: 500px;
+    background-color: yellow;
+}
+
+/* RGB value  */
+h2{
+    
+    width: 500px;
+    color:rgb(79, 107, 79) ;
+    background-color:rgb(255, 20, 145);
+}
+
+/* rgba value  */
+h3{
+    color: rgba(24, 0, 255, 0.7);
+    font-size: 30px;
+    width: 500px;
+    text-align:right;
+}
+
+/* hexa value  */
+p{
+    
+    width: 500px;
+    color: #fff;
+    background-color: #000;
+    font-size: 25px;
+    text-align: center;
+}
