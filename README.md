@@ -1,4 +1,5 @@
 here you will be learning basic of CSS
+<br>
 CSS syntax:
   selectors{
               property:value;
