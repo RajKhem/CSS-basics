@@ -1,0 +1,26 @@
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color:pink;
+}
+
+.one{
+    background-color: aquamarine;
+    /* position: relative;
+    z-index: 1; */
+} 
+
+/*We cannot set z-index for static and default position so firstly we must define position before applying Z-Index. 
+By default the Z-Index is 0, element with Higher Z-Index will overlap to those with Smaller one.
+eg: 1>0;    0>-1;
+
+*/
+
+
+.two{
+    background-color: darkolivegreen;
+    position: relative;
+    bottom: 50px;
+    /* z-index: -1; */
+} 
